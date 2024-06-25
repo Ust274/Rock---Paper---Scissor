@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+#choice button{
+    font-size: 7rem;
+    border: none;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 5px;
+    background-color: black;
+}
+
+.green-text{
+    color: rgb(40, 156, 40);
+}
+.red-text{
+    color: rgb(227, 14, 14);
+}
+
+.display{
+margin-top: 20px;
+font-size: 2.5rem;
+}
+
+.count{
+    border: 2px solid black;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+
+}
